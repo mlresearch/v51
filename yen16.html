@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Scalable Exemplar Clustering and Facility Location via Augmented Block Coordinate Descent with Column Generation | AISTATS 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Scalable Exemplar Clustering and Facility Location via Augmented Block Coordinate Descent with Column Generation">
+
+  <meta name="citation_author" content="Yen, Ian En-Hsu">
+
+  <meta name="citation_author" content="Malioutov, Dmitry">
+
+  <meta name="citation_author" content="Kumar, Abhishek">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of the 19th International Conference on Artificial Intelligence and Statistics">
+<meta name="citation_firstpage" content="1260">
+<meta name="citation_lastpage" content="1269">
+<meta name="citation_pdf_url" content="yen16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Scalable Exemplar Clustering and Facility Location via Augmented Block Coordinate Descent with Column Generation</h1>
+
+	<div id="authors">
+	
+		Ian En-Hsu Yen,
+	
+		Dmitry Malioutov,
+	
+		Abhishek Kumar
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of the 19th International Conference on Artificial Intelligence and Statistics,
+		pp. 1260–1269, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		In recent years exemplar clustering has become a popular tool for applications in document and video summarization, active learning, and clustering with general similarity, where cluster centroids are required to be a subset of the data samples rather than their linear combinations. The problem is also well-known as facility location in the operations research literature. While the problem has well-developed convex relaxation with approximation and recovery guarantees, it has number of variables grows quadratically with the number of samples. Therefore, state-of-the-art methods can hardly handle more than <span class="math">\(10^4\)</span> samples (i.e. <span class="math">\(10^8\)</span> variables). In this work, we propose an Augmented-Lagrangian with Block Coordinate Descent (AL-BCD) algorithm that utilizes problem structure to obtain closed-form solution for each block sub-problem, and exploits low-rank representation of the dissimilarity matrix to search active columns without computing the entire matrix. Experiments show our approach to be orders of magnitude faster than existing approaches and can handle problems of up to <span class="math">\(10^6\)</span> samples. We also demonstrate successful applications of the algorithm on world-scale facility location, document summarization and active learning.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="yen16.pdf">Download PDF</a></li>
+			
+			<li><a href="yen16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

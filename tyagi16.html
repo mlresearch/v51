@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Learning Sparse Additive Models with Interactions in High Dimensions | AISTATS 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Learning Sparse Additive Models with Interactions in High Dimensions">
+
+  <meta name="citation_author" content="Tyagi, Hemant">
+
+  <meta name="citation_author" content="Kyrillidis, Anastasios">
+
+  <meta name="citation_author" content="Gärtner, Bernd">
+
+  <meta name="citation_author" content="Krause, Andreas">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of the 19th International Conference on Artificial Intelligence and Statistics">
+<meta name="citation_firstpage" content="111">
+<meta name="citation_lastpage" content="120">
+<meta name="citation_pdf_url" content="tyagi16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Learning Sparse Additive Models with Interactions in High Dimensions</h1>
+
+	<div id="authors">
+	
+		Hemant Tyagi,
+	
+		Anastasios Kyrillidis,
+	
+		Bernd Gärtner,
+	
+		Andreas Krause
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of the 19th International Conference on Artificial Intelligence and Statistics,
+		pp. 111–120, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		A function <span class="math">\(f: \mathbb{R}^d \rightarrow \mathbb{R}\)</span> is referred to as a Sparse Additive Model (SPAM), if it is of the form <span class="math">\(f(x) = \sum_{l \in S} \phi_{l}(x_l)\)</span>, where <span class="math">\(S \subset [d]\)</span>, <span class="math">\(|S| \ll d\)</span>. Assuming <span class="math">\(\phi_l\)</span>’s and <span class="math">\(S\)</span> to be unknown, the problem of estimating <span class="math">\(f\)</span> from its samples has been studied extensively. In this work, we consider a generalized SPAM, allowing for second order interaction terms. For some <span class="math">\(S_1 \subset [d]\)</span>, <span class="math">\(S_2 \subset {[d] \choose 2}\)</span>, the function <span class="math">\(f\)</span> is assumed to be of the form: <span class="math">\(f(x) = \sum_{p \in S_1} \phi_{p} (x_p) + \sum_{(l,l') \in S_2} \phi_{l,l'} (x_l, x_{l'})\)</span>. Assuming <span class="math">\(\phi_{p}\)</span>, <span class="math">\(\phi_{(l,l')}\)</span>, <span class="math">\(S_1\)</span> and <span class="math">\(S_2\)</span> to be unknown, we provide a randomized algorithm that queries <span class="math">\(f\)</span> and exactly recovers <span class="math">\(S_1,S_2\)</span>. Consequently, this also enables us to estimate the underlying <span class="math">\(\phi_p\)</span>, <span class="math">\(\phi_{l,l'}\)</span>. We derive sample complexity bounds for our scheme and also extend our analysis to include the situation where the queries are corrupted with noise – either stochastic, or arbitrary but bounded. Lastly, we provide simulation results on synthetic data, that validate our theoretical findings.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="tyagi16.pdf">Download PDF</a></li>
+			
+			<li><a href="tyagi16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

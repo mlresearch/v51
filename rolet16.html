@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Fast Dictionary Learning with a Smoothed Wasserstein Loss | AISTATS 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Fast Dictionary Learning with a Smoothed Wasserstein Loss">
+
+  <meta name="citation_author" content="Rolet, Antoine">
+
+  <meta name="citation_author" content="Cuturi, Marco">
+
+  <meta name="citation_author" content="Peyré, Gabriel">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of the 19th International Conference on Artificial Intelligence and Statistics">
+<meta name="citation_firstpage" content="630">
+<meta name="citation_lastpage" content="638">
+<meta name="citation_pdf_url" content="rolet16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>Fast Dictionary Learning with a Smoothed Wasserstein Loss</h1>
+
+	<div id="authors">
+	
+		Antoine Rolet,
+	
+		Marco Cuturi,
+	
+		Gabriel Peyré
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of the 19th International Conference on Artificial Intelligence and Statistics,
+		pp. 630–638, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		We consider in this paper the dictionary learning problem when the observations are normalized histograms of features. This problem can be tackled using non-negative matrix factorization approaches, using typically Euclidean or Kullback-Leibler fitting errors. Because these fitting errors are separable and treat each feature on equal footing, they are blind to any similarity the features may share. We assume in this work that we have prior knowledge on these features. To leverage this side-information, we propose to use the Wasserstein (<em>a.k.a.</em> earth mover’s or optimal transport) distance as the fitting error between each original point and its reconstruction, and we propose scalable algorithms to to so. Our methods build upon Fenchel duality and entropic regularization of Wasserstein distances, which improves not only speed but also computational stability. We apply these techniques on face images and text documents. We show in particular that we can learn dictionaries (topics) for bag-of-word representations of texts using words that may not have appeared in the original texts, or even words that come from a different language than that used in the texts.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="rolet16.pdf">Download PDF</a></li>
+			
+			<li><a href="rolet16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

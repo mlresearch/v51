@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>High Dimensional Bayesian Optimization via Restricted Projection Pursuit Models | AISTATS 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="High Dimensional Bayesian Optimization via Restricted Projection Pursuit Models">
+
+  <meta name="citation_author" content="Li, Chun-Liang">
+
+  <meta name="citation_author" content="Kandasamy, Kirthevasan">
+
+  <meta name="citation_author" content="Poczos, Barnabas">
+
+  <meta name="citation_author" content="Schneider, Jeff">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of the 19th International Conference on Artificial Intelligence and Statistics">
+<meta name="citation_firstpage" content="884">
+<meta name="citation_lastpage" content="892">
+<meta name="citation_pdf_url" content="li16e.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>High Dimensional Bayesian Optimization via Restricted Projection Pursuit Models</h1>
+
+	<div id="authors">
+	
+		Chun-Liang Li,
+	
+		Kirthevasan Kandasamy,
+	
+		Barnabas Poczos,
+	
+		Jeff Schneider
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of the 19th International Conference on Artificial Intelligence and Statistics,
+		pp. 884–892, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		Bayesian Optimization (BO) is commonly used to optimize blackbox objective functions which are expensive to evaluate. A common approach is based on using Gaussian Process (GP) to model the objective function. Applying GP to higher dimensional settings is generally difficult due to the curse of dimensionality for nonparametric regression. Existing works makes strong assumptions such as the function is low-dimensional embedding (Wang et al., 2013) or is axis-aligned additive (Kandasamy et al., 2015). In this pa- per, we generalize the existing assumption to a projected-additive assumption. Our generalization provides the benefits of i) greatly increasing the space of functions that can be modeled by our approach, which covers the previous works (Wang et al., 2013; Kandasamy et al., 2015) as special cases, and ii) efficiently handling the learning in a larger model space. We prove that the regret for projected-additive functions has only linear dependence on the number of dimensions in this general setting. Directly using projected-additive GP (Gilboa et al., 2013) to BO results in a non-box constraint, which is not easy to optimize. We tackle this problem by proposing a restricted-projection-pursuit GP for BO. We conduct experiments on synthetic examples and scientific and hyper-parameter tuning tasks in many cases. Our method outperforms existing approaches even when the function does not meet the projected additive assumption. Last, we study the validity of the additive and projected-additive assumption in practice.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="li16e.pdf">Download PDF</a></li>
+			
+			<li><a href="li16e-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

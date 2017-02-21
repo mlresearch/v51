@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>AdaDelay: Delay Adaptive Distributed Stochastic Optimization | AISTATS 2016 | JMLR W&amp;CP</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="../css/jmlr.css" />
+
+	<!-- Fixed position navigation -->
+	<!--#include virtual="/proceedings/css-scroll.txt"-->
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['\\(','\\)']]}});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+	<!-- Metadata -->
+	<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="AdaDelay: Delay Adaptive Distributed Stochastic Optimization">
+
+  <meta name="citation_author" content="Sra, Suvrit">
+
+  <meta name="citation_author" content="Yu, Adams Wei">
+
+  <meta name="citation_author" content="Li, Mu">
+
+  <meta name="citation_author" content="Smola, Alex">
+
+<meta name="citation_publication_date" content="2016">
+<meta name="citation_conference_title" content="Proceedings of the 19th International Conference on Artificial Intelligence and Statistics">
+<meta name="citation_firstpage" content="957">
+<meta name="citation_lastpage" content="965">
+<meta name="citation_pdf_url" content="sra16.pdf">
+
+</head>
+<body>
+
+
+<div id="fixed">
+<!--#include virtual="/proceedings/nav-bar.txt"-->
+</div>
+
+<div id="content">
+
+	<h1>AdaDelay: Delay Adaptive Distributed Stochastic Optimization</h1>
+
+	<div id="authors">
+	
+		Suvrit Sra,
+	
+		Adams Wei Yu,
+	
+		Mu Li,
+	
+		Alex Smola
+	<br />
+	</div>
+	<div id="info">
+		Proceedings of the 19th International Conference on Artificial Intelligence and Statistics,
+		pp. 957–965, 2016
+	</div> <!-- info -->
+
+	
+
+	<h2>Abstract</h2>
+	<div id="abstract">
+		We develop distributed stochastic convex optimization algorithms under a delayed gradient model in which server nodes update parameters and worker nodes compute stochastic (sub)gradients. Our setup is motivated by the behavior of real-world distributed computation systems; in particular, we analyze a setting wherein worker nodes can be differently slow at different times. In contrast to existing approaches, we do not impose a worst-case bound on the delays experienced but rather allow the updates to be sensitive to the actual delays experienced. This sensitivity allows use of larger stepsizes, which can help speed up initial convergence without having to wait too long for slower machines; the global convergence rate is still preserved. We experiment with different delay patterns, and obtain noticeable improvements for large-scale real datasets with billions of examples and features.
+	</div>
+
+	<h2>Related Material</h2>
+	<div id="extras">
+		<ul>
+			<li><a href="sra16.pdf">Download PDF</a></li>
+			
+			<li><a href="sra16-supp.pdf">Supplementary (PDF)</a></li>
+			
+			
+		</ul>
+	</div> <!-- extras -->
+
+</div> <!-- content -->
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+---
+booktitle: Proceedings of the 19th International Conference on Artificial Intelligence
+  and Statistics
+volume: 51
+year: '2016'
+start: 2016-05-09
+end: 2016-05-11
+published: 2016-05-02
+shortname: AISTATS
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: AISTATS-2016
+month: 0
+abstract: ''
+sections: 
+editor:
+- given: Arthur
+  family: Gretton
+- given: Christian C.
+  family: Robert
+title: Proceedings of the 19th International Conference on Artificial Intelligence
+  and Statistics
+email: ''
+description: Proceedings of the 19th International Conference on Artificial Intelligence
+  and Statistics, Cadiz, Spain
+url: http://proceedings.mlr.press
+baseurl: "/v51"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v51
+conference:
+  name: Artificial Intelligence and Statistics
+  url: http://www.aistats.org/aistats2016/
+  location: Cadiz, Spain
+  dates:
+  - 2016-05-09
+  - 2016-05-10
+  - 2016-05-11
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v51.bib

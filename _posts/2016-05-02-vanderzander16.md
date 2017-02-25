@@ -14,6 +14,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: vanderzander16
 month: 0
+tex_title: On Searching for Generalized Instrumental Variables
 firstpage: 1214
 lastpage: 1222
 page: 1214-1222

@@ -12,6 +12,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: ravanbakhsh16
 month: 0
+tex_title: Stochastic Neural Networks with Monotonic Activation Functions
 firstpage: 809
 lastpage: 818
 page: 809-818

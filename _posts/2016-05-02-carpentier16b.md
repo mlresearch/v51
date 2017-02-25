@@ -12,6 +12,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: carpentier16b
 month: 0
+tex_title: Learning Relationships between Data Obtained Independently
 firstpage: 658
 lastpage: 666
 page: 658-666

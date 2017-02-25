@@ -16,6 +16,8 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: tschiatschek16
 month: 0
+tex_title: Learning Probabilistic Submodular Diversity Models Via Noise Contrastive
+  Estimation
 firstpage: 770
 lastpage: 779
 page: 770-779

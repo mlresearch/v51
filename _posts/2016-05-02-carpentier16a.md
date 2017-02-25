@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: carpentier16a
 month: 0
+tex_title: Revealing Graph Bandits for Maximizing Local Influence
 firstpage: 10
 lastpage: 18
 page: 10-18

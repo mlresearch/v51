@@ -16,6 +16,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: hernandez-lobato16
 month: 0
+tex_title: Scalable Gaussian Process Classification via Expectation Propagation
 firstpage: 168
 lastpage: 176
 page: 168-176

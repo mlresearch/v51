@@ -18,6 +18,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: lakshminarayanan16
 month: 0
+tex_title: Mondrian Forests for Large-Scale Regression when Uncertainty Matters
 firstpage: 1478
 lastpage: 1487
 page: 1478-1487

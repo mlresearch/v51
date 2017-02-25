@@ -19,6 +19,7 @@ layout: inproceedings
 series: Proceedings of Machine Learning Research
 id: gunawardana16
 month: 0
+tex_title: Universal Models of Multivariate Temporal Point Processes
 firstpage: 556
 lastpage: 563
 page: 556-563

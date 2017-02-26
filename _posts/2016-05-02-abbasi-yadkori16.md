@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:abbasi-yadkori16-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/abbasi-yadkori16-supp.pdf
 title: A Fast and Reliable Policy Improvement Algorithm
 abstract: We introduce a simple, efficient method that improves stochastic policies
   for Markov decision processes.  The computational complexity is the same as that
@@ -15,7 +15,8 @@ tex_title: A Fast and Reliable Policy Improvement Algorithm
 firstpage: 1338
 lastpage: 1346
 page: 1338-1346
-sections: 
+order: 1338
+cycles: false
 author:
 - given: Yasin
   family: Abbasi-Yadkori

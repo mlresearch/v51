@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:carpentier16a-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/carpentier16a-supp.pdf
 title: Revealing Graph Bandits for Maximizing Local Influence
 abstract: We study a graph bandit setting where the objective of the learner is to
   detect the most influential node of a graph by requesting as little information
@@ -22,7 +22,8 @@ tex_title: Revealing Graph Bandits for Maximizing Local Influence
 firstpage: 10
 lastpage: 18
 page: 10-18
-sections: 
+order: 10
+cycles: false
 author:
 - given: Alexandra
   family: Carpentier

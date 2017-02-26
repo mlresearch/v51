@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:tschiatschek16-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/tschiatschek16-supp.pdf
 title: Learning Probabilistic Submodular Diversity Models Via Noise Contrastive Estimation
 abstract: Modeling diversity of sets of items is important in many applications such
   as product recommendation and data summarization. Probabilistic submodular models,
@@ -21,7 +21,8 @@ tex_title: Learning Probabilistic Submodular Diversity Models Via Noise Contrast
 firstpage: 770
 lastpage: 779
 page: 770-779
-sections: 
+order: 770
+cycles: false
 author:
 - given: Sebastian
   family: Tschiatschek

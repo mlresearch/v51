@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:gunawardana16-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/gunawardana16-supp.pdf
 title: Universal Models of Multivariate Temporal Point Processes
 abstract: With the rapidly increasing availability of event stream data there is growing
   interest in multivariate temporal point process models to capture both qualitative
@@ -23,7 +23,8 @@ tex_title: Universal Models of Multivariate Temporal Point Processes
 firstpage: 556
 lastpage: 563
 page: 556-563
-sections: 
+order: 556
+cycles: false
 author:
 - given: Asela
   family: Gunawardana

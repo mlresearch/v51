@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:hernandez-lobato16-supp.zip
+supplementary: http://proceedings.mlr.press/v51/hernandez-lobato16-supp.zip
 title: Scalable Gaussian Process Classification via Expectation Propagation
 abstract: Variational methods have been recently considered for scaling the training
   process of Gaussian process classifiers to large datasets. As an alternative, we
@@ -20,7 +20,8 @@ tex_title: Scalable Gaussian Process Classification via Expectation Propagation
 firstpage: 168
 lastpage: 176
 page: 168-176
-sections: 
+order: 168
+cycles: false
 author:
 - given: Daniel
   family: Hernandez-Lobato

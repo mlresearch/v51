@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:vanderzander16-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/vanderzander16-supp.pdf
 title: On Searching for Generalized Instrumental Variables
 abstract: Instrumental Variables  are a popular way to identify the direct causal
   effect of a random variable X on a variable Y.  Often no single instrumental variable
@@ -18,7 +18,8 @@ tex_title: On Searching for Generalized Instrumental Variables
 firstpage: 1214
 lastpage: 1222
 page: 1214-1222
-sections: 
+order: 1214
+cycles: false
 author:
 - given: Benito
   family: Zander

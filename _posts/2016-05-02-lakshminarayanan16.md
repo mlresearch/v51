@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:lakshminarayanan16-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/lakshminarayanan16-supp.pdf
 title: Mondrian Forests for Large-Scale Regression when Uncertainty Matters
 abstract: Many real-world regression problems demand a measure of the uncertainty
   associated with each prediction.  Standard decision forests deliver efficient state-of-the-art
@@ -22,7 +22,8 @@ tex_title: Mondrian Forests for Large-Scale Regression when Uncertainty Matters
 firstpage: 1478
 lastpage: 1487
 page: 1478-1487
-sections: 
+order: 1478
+cycles: false
 author:
 - given: Balaji
   family: Lakshminarayanan

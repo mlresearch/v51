@@ -1,5 +1,5 @@
 ---
-supplementary: Supplementary:carpentier16b-supp.pdf
+supplementary: http://proceedings.mlr.press/v51/carpentier16b-supp.pdf
 title: Learning Relationships between Data Obtained Independently
 abstract: The aim of this paper is to provide a new method for learning the relationships
   between data that have been obtained independently. Unlike existing methods like
@@ -16,7 +16,8 @@ tex_title: Learning Relationships between Data Obtained Independently
 firstpage: 658
 lastpage: 666
 page: 658-666
-sections: 
+order: 658
+cycles: false
 author:
 - given: Alexandra
   family: Carpentier

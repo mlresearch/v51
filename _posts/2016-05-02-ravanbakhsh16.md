@@ -16,7 +16,8 @@ tex_title: Stochastic Neural Networks with Monotonic Activation Functions
 firstpage: 809
 lastpage: 818
 page: 809-818
-sections: 
+order: 809
+cycles: false
 author:
 - given: Siamak
   family: Ravanbakhsh
